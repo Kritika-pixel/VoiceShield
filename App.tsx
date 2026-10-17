@@ -6,7 +6,7 @@ import {
   Menu, Mic, Moon, Plus, ScanLine, Search, Settings, Shield, ShieldAlert,
   ShieldCheck, Sparkles, Upload, Users, X, Eye, EyeOff, Zap, ArrowUpRight
 } from "lucide-react";
-import { supabase, supabaseConfigured } from "./lib/supabase";
+import { supabase, supabaseConfigured } from "./supabase";
 
 type View = "dashboard" | "analyze" | "protection" | "history" | "contacts" | "reports" | "settings";
 type Analysis = { fileName: string; risk: number; classification: "Low" | "Medium" | "High"; note: string; time: string };
