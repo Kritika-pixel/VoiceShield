@@ -3,7 +3,6 @@
 
 VoiceShield is a proposed AI-powered voice-authenticity system designed to help people identify suspicious AI-generated or cloned speech during live VoIP calls. Instead of relying only on a caller's phone number or reputation, VoiceShield analyzes the audio signal itself in short chunks and estimates whether the speech is genuine or synthetic.
 
-> **Project status:** HackFest 2026 prototype. The presentation describes the proposed solution and technology options; it does not specify which alternatives are currently implemented or provide model-training, API, or deployment details. Update those sections as the implementation is finalized.
 
 **Prototype:** [https://voice-shield-chi.vercel.app/](https://voice-shield-chi.vercel.app/)
 
@@ -137,7 +136,6 @@ The presentation identifies banks and call centres as possible enterprise users 
 - Connecting the reporting workflow to the appropriate cybercrime reporting process.
 - Evaluating privacy, consent, security, latency, and performance under real-world call conditions.
 
-These are development directions, not claims that the capabilities are already complete.
 
 ## Team
 
@@ -149,8 +147,4 @@ These are development directions, not claims that the capabilities are already c
 
 **Track:** AI  
 **Project:** VoiceShield
-
-## Acknowledgements
-
-Developed as a project for **HackFest 2026 — Season 1**.
 
